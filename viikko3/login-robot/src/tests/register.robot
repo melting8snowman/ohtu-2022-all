@@ -1,18 +1,18 @@
 *** Settings ***
 Resource  resource.robot
-Test Setup  Create User And Input Login Command
+Test Setup  Create First User
 
 *** Test Cases ***
 Register With Valid Username And Password
-    Input Credentials  jaakko  jaakko123
-    Output Should Contain  Logged in
+    Create User  second  second
+    Output Should Contain  New user registered
+
 Register With Already Taken Username And Valid Password
     Create User  jaakko  jaakko123
-    Login Should Fail With Message  Invalid username or password
+    Output Should Contain  User with username jaakko already exists
 
 
 *** Keywords ***
-Create User And Input Login Command
-    Create User  jaakko  jaakko123
-    Input Login Command
-Input New Command And Create User
+Create First User
+    Create User  jakke  jakke123
+    Create New Command
