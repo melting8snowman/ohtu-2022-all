@@ -7,16 +7,16 @@ def main():
     reader = PlayerReader(url)
     stats = Statistics(reader)
 
-    matcher = And(
-        HasAtLeast(5, "goals"),
-        HasAtLeast(5, "assists"),
-        PlaysIn("PHI")
-    )
-
     #matcher = And(
-    #    Not(HasAtLeast(1, "goals")),
-    #    PlaysIn("NYR")
+    #    HasAtLeast(5, "goals"),
+    #    HasAtLeast(5, "assists"),
+    #    PlaysIn("PHI")
     #)
+
+    matcher = And(
+        Not(HasAtLeast(1, "goals")),
+        PlaysIn("NYR")
+    )
 
     for player in stats.matches(matcher):
         print(player)
