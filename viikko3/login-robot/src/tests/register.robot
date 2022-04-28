@@ -8,7 +8,7 @@ Register With Valid Username And Password
     Output Should Contain  Logged in
 Register With Already Taken Username And Valid Password
     Create User  jaakko  jaakko123
-    Should Fail
+    Login Should Fail With Message  Invalid username or password
 
 
 *** Keywords ***

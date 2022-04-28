@@ -4,6 +4,7 @@ Suite Setup  Open And Configure Browser
 Suite Teardown  Close Browser
 Test Setup  Go To Home Page
 
+
 *** Test Cases ***
 Click Login Link
     Click Link  Login
@@ -12,3 +13,4 @@ Click Login Link
 Click Register Link
     Click Link  Register new user
     Register Page Should Be Open
+

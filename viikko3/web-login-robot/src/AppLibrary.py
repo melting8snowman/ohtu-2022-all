@@ -18,3 +18,12 @@ class AppLibrary:
         }
 
         requests.post(f"{self._base_url}/register", data=data)
+
+    def create_failed_user(self, username, password):
+        data = {
+            "username": username,
+            "password": password,
+            "password_confirmation": '12'
+        }
+
+        requests.post(f"{self._base_url}/register", data=data)
