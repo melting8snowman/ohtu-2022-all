@@ -1,0 +1,4 @@
+referaatti kandidaattityöstä: Johtaminen perinteisissä ja ketterissä ohjelmistotuotantoprojekteissa
+
+Johtamistyyli tulisi sovittaa tietojärjestelmäprojektin tyyliin sopivaksi. Perinteisessä kehityksessä kontrolli, suunnittelu, optimointi ja ohjaus muodostavat suurwen osan työstä, kun taas ketterässä kehityksessä kommunikaatio, yhteistyö ja sopeutuvuus nousevat tärkeään asemaan.
+Vuorovaikutustaidot ovatkin ohjelmistotuotantojohtajalle erityisen tärkeitä taitoja teknisten taitojen lisäksi, erityisesti ketterässä kehityksessä. Scrumissahan varsinaista muodollista tiiminjohtajaa ei ole. Muita sopivaan johtamistyyliin vaikuttavia tekijäitä ovat organisaatiokulttuuri, tiimirakenteet ja strategiset tekjät.
